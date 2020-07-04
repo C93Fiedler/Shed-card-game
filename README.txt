@@ -23,7 +23,7 @@ When a game is over, the program restarts.
 
 
 Known issues:
-- There are some logic issues with burning in certain cases, such as getting another turn when there are no more cards to play or not getting the extra turn from burning. Probably too much effort to fix for a program that will never be used by anyone.
+- There are some logic issues with burning in certain cases, such as getting another turn when there are no more cards to play or not getting the extra turn from burning. I will have a look at it once my thesis is submitted and hopefully upload a new fixed version.
 - Can't close or even move the main window while the console waits for input. This could be fixed by making the graphics display in a separate thread so that the window can still be used. Or incorporate user input into the window and remove the need of having the console.
 
 
