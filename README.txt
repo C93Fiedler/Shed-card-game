@@ -1,4 +1,4 @@
-Old version written in early 2017 using Python 2.7.
+Old version written in early 2017 using Python 2.7. New version added 05/06/2020.
 
 
 The story of there being no comments in the code:
@@ -16,16 +16,16 @@ The game will then start in the main window where each player can take their tur
 
 Also cards can only be clicked on the left, so the last card is only clickable for the first 30 pixels or so.
 
-Small note: when a player can't play, they still have to put a card down for everyone to see.
-
 When a game is over, the program restarts.
 
 
 
-Known issues:
+Known issues of the old version:
 - There are some logic issues with burning in certain cases, such as getting another turn when there are no more cards to play or not getting the extra turn from burning. I will have a look at it once my thesis is submitted and hopefully upload a new fixed version.
-- Can't close or even move the main window while the console waits for input. This could be fixed by making the graphics display in a separate thread so that the window can still be used. Or incorporate user input into the window and remove the need of having the console.
+- Can't close or even move the main window while the console waits for input. This could be fixed by incorporating user input into the window and remove the need of having the console.
 
+New version fixes:
+-Burning logic fixed, the game should run without issues now.
 
 Rules of the game:
 This game is based on https://en.wikipedia.org/wiki/Shithead_(card_game) with slightly different rules.
