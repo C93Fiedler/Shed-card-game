@@ -26,6 +26,7 @@ Known issues of the old version:
 
 New version fixes:
 -Burning logic fixed, the game should run without issues now.
+-Print function imported from future, should run on newer versions of Python (not tested)
 
 Rules of the game:
 This game is based on https://en.wikipedia.org/wiki/Shithead_(card_game) with slightly different rules.
